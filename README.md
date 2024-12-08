@@ -1,0 +1,11 @@
+# Preserve
+
+Food waste at home is a major problem that continues to occur globally and most people do not realize the substantial waste that one household can produce. At the micro level, we believe that having a tool to keep track of ingredients within a refrigerator and pantry and sending out necessary notifications of when an item is about to go bad can serve as an actionable solution towards solving this problem. 
+The project, Preserve, is an iOS mobile application that aims to bring this tool to a user’s phone. The user can import ingredients and food from the physical world to the digital world through barcode scanning, receipt scanning, or manual entry. Each item will also be assigned an estimated shelf life based on a dataset from the US Department of Agriculture (USDA). Users would get notifications on their phone for when an item is about to reach its shelf life. Additional features include recipe recommendations based on the current ingredients.
+
+Preserve aims to be a standard iOS application that anyone who owns an iPhone or device that runs iOS can download from the app store. Creating a user account with an email address and password from the user is required as authentication will be needed for accessing and storing fridge data. We will be using Google’s Firebase to process the backend authentication and database operations. Firebase is a set of backend cloud computing services and is integratable with iOS applications. 
+Although manual entry of food into the database is available, the app’s convenience shines in the barcode scanning and receipt scanning import functionalities. Therefore, the user must be willing to give camera access in order to take advantage of these features. Furthermore, in order to maximize the app’s utility, the user must commit to engaging with the status of items (used/unused) and assigning shelf life values for items that do not have a match in the shelf life dataset. 
+
+<img src="https://github.com/user-attachments/assets/56273342-3e7f-470c-8196-537a7bdaba6b" alt="log in" width="250" />
+<img src="https://github.com/user-attachments/assets/c23f9f4d-dbaa-46c5-a328-ad38c14d247a" alt="info card" width="250" />
+<img src="https://github.com/user-attachments/assets/b45d4dc6-8e97-46f2-a4f4-845c58ac923d" alt="inventory" width="250" />
